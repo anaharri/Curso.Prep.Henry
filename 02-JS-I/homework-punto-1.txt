@@ -1,0 +1,13 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables: las variables son nombres que usamos en programación para denominar y almacenar datos. Pueden compararse con cajitas con etiquetas: cada cajita tiene algo adentro (datos, piezas de información) y una etiqueta con un nombre que nos indica de qué se trata ese contenido.
+
+Strings: las strings son un tipo de dato que consiste de texto entre comillas - este texto pueden ser caracteres alfabéticos, numéricos, especiales (espacios, signos de puntuación, etc), pero siempre entre comillas; si no tiene comillas, no es un dato de tipo string.
+
+Funciones (argumentos, return): las funciones son bloques de lógica que definimos de manera tal que podamos reutilizarlos en distintos puntos de nuestro código. En cierto modo, las funciones podrían verse como maquinitas que aplican un proceso a cualquier cosa que se les ingrese, y devuelven un resultado.
+Por ejemplo, un horno encendido podría verse como una función: el horno acepta cualquier 'input', es decir cualquier comida que quieras meterle; luego aplica calor, y devuelve la comida que metiste, pero caliente.
+De la misma manera, una función acepta uno o más argumentos (información que nosotros ingresamos, como la comida que metemos el horno), aplica uno o más procesos lógicos a esos argumentos (operaciones matemáticas, comparaciones, transformaciones, filtros, etc) y retorna un resultado.
+
+Declaraciones if: una declaración 'if' o condicional es un elemento que permite controlar el flujo del código mediante la evaluación de un dato. De la misma manera que, en "la vida real", solemos decir, por ejemplo, "si hace mucho frío, prendo la calefacción", en un programa informático podemos hacer el mismo proceso de toma de decisiones. Con una declaración 'if' evaluamos si una condición se cumple o no, y en base a eso determinamos qué partes del código se ejecutarán y cuáles se ignorarán.
+
+Valores booleanos (true, false): un boolean es otro tipo de dato (como string o number). Lo característico de un dato de tipo boolean es que es binario, es decir, puede adoptar solamente uno de dos valores opuestos y excluyentes entre sí: true y false.
