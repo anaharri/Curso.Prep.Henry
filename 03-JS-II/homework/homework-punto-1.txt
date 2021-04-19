@@ -1,0 +1,9 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for: los bucles 'for' se usan para iterar un bloque de código; es decir, para repetir una acción una cierta cantidad de veces. Hay distintas variantes y formas de aplicarlo pero, en líneas generales, siempre es necesario definir la acción (o las acciones) que queremos reiterar, y la condición que tiene que cumplirse para mantener ese bucle girando.
+
+
+&&, ||, ! : los operadores lógicos sirven para enriquecer las declaraciones 'if'. Gracias a ellos, podemos evaluar varias condiciones a la vez para determinar si ejecutar un bloque de código o no.
+&& combina dos o más condiciones, indicando a la computadora que tienen que cumplirse TODAS para que el código siguiente se ejecute;
+|| también combina dos o más condiciones, pero, a diferencia del anterior, establece que basta con que UNA de esas condiciones se cumpla para que el código dentro del condicional pueda ejecutarse;
+por último, ! cumple la función de 'negar' lo que sea que se le ponga adelante. !true es lo opuesto a true (o sea, false), y !false a su vez es lo opuesto a false (o sea, true).
