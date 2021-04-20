@@ -1,0 +1,28 @@
+al intentar correr los tests me sale este error:
+
+<--- Last few GCs --->
+
+[5852:0x1046c2000]     2499 ms: Mark-sweep 1178.8 (1221.5) -> 847.5 (885.8) MB, 188.9 / 0.0 ms  (+ 1.9 ms in 2 steps since start of marking, biggest step 1.5 ms, walltime since start of marking 618 ms) (average mu = 0.903, current mu = 0.799) allocation f[5852:0x1046c2000]     2944 ms: Scavenge 1421.3 (1459.6) -> 1421.3 (1459.6) MB, 53.4 / 0.0 ms  (average mu = 0.903, current mu = 0.799) allocation failure 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: invalid array length Allocation failed - JavaScript heap out of memory
+ 1: 0x1012e4da5 node::Abort() (.cold.1) [/usr/local/bin/node]
+ 2: 0x1000a6239 node::Abort() [/usr/local/bin/node]
+ 3: 0x1000a639f node::OnFatalError(char const*, char const*) [/usr/local/bin/node]
+ 4: 0x1001e9007 v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+ 5: 0x1001e8fa3 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]
+ 6: 0x100397e95 v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]
+ 7: 0x10036f5c6 v8::internal::Factory::NewUninitializedFixedArray(int) [/usr/local/bin/node]
+ 8: 0x1004f2f6d v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedSmiElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)0> >::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) [/usr/local/bin/node]
+ 9: 0x1006c6294 v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+10: 0x100a7a239 Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]
+11: 0x27b566889f7b 
+12: 0x100a135e2 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+13: 0x100a0d519 Builtins_ArgumentsAdaptorTrampoline [/usr/local/bin/node]
+Abort trap: 6
+MBP-de-Ana:Curso.Prep.Henry anaharrington$ 
+
+
+
